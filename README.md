@@ -58,6 +58,6 @@ This can also help us determine road orientation and road area, to exclude for e
 Also this needs to be improved. As shown in average_velocities.png, upper areas shows a decrease in velocity, which is really caused by unmoving bounding box corners as we're summing up the velocity for all four corners. We should account for edge situations and exclude unmoving corners later.
 
 
-## See demoVideo.mkv which summarizes our entire project from input video to steps undertaken to the outcome.
+See demoVideo.mkv which summarizes our entire project from input video to steps undertaken to the outcome.
 
 

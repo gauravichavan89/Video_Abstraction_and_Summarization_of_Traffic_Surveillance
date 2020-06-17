@@ -12,7 +12,7 @@ Video abstraction applied to traffic videos
 Note: A trafficVideo.mp4 is in the repo.
 
 ## The Steps:
-![](images/steps.png)
+![](output_images/steps.png)
 * First, we extract the non-background pixels using GMG algorithm. Each chunk of non-background pixel is boxed by a bounding box.
 
 During this step, a background is reconstructed using the mode (dominant color) of the pixels. This background will be used as a still

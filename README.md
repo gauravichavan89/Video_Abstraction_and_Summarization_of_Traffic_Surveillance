@@ -12,7 +12,7 @@ Video abstraction applied to traffic videos
 Note: A trafficVideo.mp4 is in the repo.
 
 ## The Steps:
-![](C:/Users/17807/Desktop/Winter-2019-courses-Material/Computer_Vision/course_project/Implementation_Code/Implementation_Code/source-code/source-code/Video-Abstraction-master/Video-Abstraction-master/output_images/steps.png)
+(C:/Users/17807/Desktop/Winter-2019-courses-Material/Computer_Vision/course_project/Implementation_Code/Implementation_Code/source-code/source-code/Video-Abstraction-master/Video-Abstraction-master/output_images/steps.png)
 * First, we extract the non-background pixels using GMG algorithm. Each chunk of non-background pixel is boxed by a bounding box.
 
 During this step, a background is reconstructed using the mode (dominant color) of the pixels. This background will be used as a still

@@ -2,6 +2,14 @@
 
 Video abstraction applied to traffic videos
 
+## Packages/ libraries needed for this project are listed as under:
+*imageio==2.5.0
+*numpy==1.16.2
+*opencv-python==3.4.5.20
+*opencv-contrib-python==3.4.5.20
+*Pillow==6.0.0
+
+
 ## How to use:
 * clone this repo
 * In the terminal: `> python main.py --mode abstract` will run the program and generate a compressed video

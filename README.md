@@ -12,7 +12,7 @@ Video abstraction applied to traffic videos
 Note: A trafficVideo.mp4 is in the repo.
 
 ## The Steps:
-(C:/Users/17807/Desktop/Winter-2019-courses-Material/Computer_Vision/course_project/Implementation_Code/Implementation_Code/source-code/source-code/Video-Abstraction-master/Video-Abstraction-master/output_images/steps.png)
+Refer the image steps.png that we have uploaded in this repo.
 * First, we extract the non-background pixels using GMG algorithm. Each chunk of non-background pixel is boxed by a bounding box.
 
 During this step, a background is reconstructed using the mode (dominant color) of the pixels. This background will be used as a still
@@ -32,7 +32,7 @@ After this step, we store each group of concatenated boxes with their appearing 
 
 * Fourth, we filter out trajectories that only lasts fraction of seconds to get only car trajectories.
 
-![](images/result.png)
+See the image result.png from the repo which demonstrates the final output.
 
 * At last, non-overlapping car trajectories are merged to a video.
 ## Future Work:
@@ -41,13 +41,12 @@ We worked out a functionality that subdivides the video into small chunks and sh
 
 This is also a kind of video substraction.
 
-
-![](average_velocities.jpg)
+Refer the image average_velocities.png from the repo to understand our future scope.
 
 Also this could improve our results in multiple ways. We can use the velocity field to remove anomalies in the video, for example a cat running across street would have different velocities with the cars.
 
 This can also help us determine road orientation and road area, to exclude for example walking people on the side.
 
-Also this needs to be improved. As shown above, upper areas shows a decrease in velocity, which is really caused by unmoving bounding box corners as we're summing up the velocity for all four corners. We should account for edge situations and exclude unmoving corners later.
+Also this needs to be improved. As shown in average_velocities.png, upper areas shows a decrease in velocity, which is really caused by unmoving bounding box corners as we're summing up the velocity for all four corners. We should account for edge situations and exclude unmoving corners later.
 
 
